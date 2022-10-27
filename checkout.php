@@ -14,6 +14,8 @@ $orderDetails["returnUrl"] = $returnUrl;
 $userDetails = getUserDetails($orderId);
 $order = getOrderDetails($orderId);
 
+
+
 $orderDetails["customerName"] = $userDetails["customerName"];
 $orderDetails["customerEmail"] = $userDetails["customerEmail"];
 $orderDetails["customerPhone"] = $userDetails["customerPhone"];
